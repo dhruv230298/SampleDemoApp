@@ -1,0 +1,11 @@
+framework module SampleFrameworkLibrary {
+  umbrella header "SampleFrameworkLibrary.h"
+  export *
+
+  module * { export * }
+}
+
+module SampleFrameworkLibrary.Swift {
+  header "SampleFrameworkLibrary-Swift.h"
+  requires objc
+}
