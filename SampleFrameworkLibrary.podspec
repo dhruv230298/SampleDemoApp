@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name                     = "SampleFrameworkLibrary"
-  spec.version                  = "1.0.0"
+  spec.version                  = "1.0.1"
   spec.summary                  = "A lightweight and efficient framework providing seamless utilities and components for iOS applications."
   
   spec.description = <<-DESC
